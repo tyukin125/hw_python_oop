@@ -1,11 +1,11 @@
-import rere
-import pytestpytest
-import 
-import inspectinspect
+import re
+import pytest
+import types
+import inspect
 from conftest import Capturing
 
 try:
-    import homeworkhomework
+    import homework
 except ModuleNotFoundError:
     assert False, 'Не найден файл с домашней работой `homework.py`'
 except NameError as exc:
