@@ -12,7 +12,6 @@ class Capturing(list):
     Usage:
      with Capturing() as func_output:
          func()
-
     check func() output in func_output variable
     """
 
